@@ -1,0 +1,16 @@
+{
+  "name": "parcel-plugin-handlebars-precompile",
+  "version": "0.1.0",
+  "description": "Precompile handlebars template",
+  "main": "index.js",
+  "keywords": [
+    "handlebars",
+    "parcel"
+  ],
+  "author": "Miroslav Bělíček",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.11",
+    "parcel-bundler": "^1.8.1"
+  }
+}
