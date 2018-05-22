@@ -4,6 +4,10 @@
   "description": "Precompile handlebars template",
   "repository": "https://github.com/belicekm/parcel-plugin-handlebars-precompile",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "handlebars-asset.js"
+  ],
   "keywords": [
     "handlebars",
     "parcel"
