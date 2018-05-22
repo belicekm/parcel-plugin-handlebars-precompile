@@ -2,6 +2,7 @@
   "name": "parcel-plugin-handlebars-precompile",
   "version": "0.1.0",
   "description": "Precompile handlebars template",
+  "repository": "https://github.com/belicekm/parcel-plugin-handlebars-precompile",
   "main": "index.js",
   "keywords": [
     "handlebars",
