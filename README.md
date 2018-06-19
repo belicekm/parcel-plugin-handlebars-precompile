@@ -11,6 +11,13 @@ npm install --save-dev parcel-plugin-handlebars-precompile
   
 Import your handlebars template:  
 
+#### Using named export
+```javascript
+import {templateFunction as myTemplate} from './template.hbs';
+document.body.innerHTML = myTemplate();
+```
+
+#### Using default export
 ```javascript
 import Handlebars from 'handlebars/dist/handlebars.runtime';
 import template from './template.hbs';
@@ -28,8 +35,10 @@ parcel build index.html --no-cache
 
 # Caveats
 
-`--no-cache`: There is an [issue](https://github.com/parcel-bundler/parcel/issues/933) with parcel caching causing troubles with
-javascript output so until resolved I recommend `--no-cache` option to be used when calling `parcel build ...`.
+- Use `--no-cache` when calling parcel with this plugin.  
+  There is an [issue](https://github.com/parcel-bundler/parcel/issues/933) with parcel caching causing troubles with
+javascript output.
+- Right now compatible only with `parcel@1.8.1`
 
 # Credits
  - [Handlebars](https://handlebarsjs.com/) - A templates on steroids.

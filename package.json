@@ -6,7 +6,8 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "handlebars-asset.js"
+    "handlebars-asset.js",
+    "@types/index.d.ts"
   ],
   "keywords": [
     "handlebars",
@@ -16,6 +17,6 @@
   "license": "ISC",
   "dependencies": {
     "handlebars": "^4.0.11",
-    "parcel-bundler": "^1.8.1"
+    "parcel-bundler": "1.8.1"
   }
 }
