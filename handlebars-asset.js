@@ -7,8 +7,7 @@ class HbsAsset extends JSAsset {
         this.contents = `
                 import Handlebars from 'handlebars/dist/handlebars.runtime';
                 const templateFunction = Handlebars.template(${precompiled});
-                export default ${precompiled};
-                export {templateFunction};
+                export default templateFunction;
                 `;
 
         return await super.pretransform();
