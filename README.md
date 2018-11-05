@@ -1,5 +1,6 @@
 # parcel-plugin-handlebars-precompile
 Precompile handlebars templates into javascript allowing them to be imported as a regular javascript source.
+It is up to you how and when the template will be rendered.
 
 # Install
 
