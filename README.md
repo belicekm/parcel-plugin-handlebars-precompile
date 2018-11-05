@@ -12,11 +12,26 @@ npm install --save-dev parcel-plugin-handlebars-precompile
 Import your handlebars template:  
 
 ```javascript
+// index.js
 import templateFunction from './template.hbs';
 document.body.innerHTML = templateFunction();
 ```
 
-Run the parcel bundler (assuming the above javascript file is imported from `index.html`):  
+Import `index.js` from your `index.html` file:
+
+```html
+<!DOCTYPE html>
+<html>
+  <!-- index.html -->
+  ...
+  <body>
+    <script src="./index.js"></script>
+  </body>
+  ...
+</html>
+```
+
+Run the parcel bundler:  
 
 ```bash
 parcel build index.html
