@@ -8,6 +8,10 @@ It is up to you how and when the template will be rendered.
 npm install --save-dev parcel-plugin-handlebars-precompile
 ```
 
+#### NOTE to version 1.0.1  
+- Fully compatible with `parcel-bundler@1.11.0`.  
+- Partially compatible with `parcel-bundler@1.12.x` - source map generation must be disabled eg: `parcel build index.html --no-source-maps`.  
+
 # Usage
   
 Import your handlebars template:  
