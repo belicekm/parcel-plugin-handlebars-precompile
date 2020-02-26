@@ -16,7 +16,7 @@
   "author": "Miroslav Bělíček",
   "license": "ISC",
   "dependencies": {
-    "handlebars": "^4.1.2",
-    "parcel-bundler": "^1.12.3"
+    "handlebars": "^4.7.3",
+    "parcel-bundler": "^1.12.4"
   }
 }

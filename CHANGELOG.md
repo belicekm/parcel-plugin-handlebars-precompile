@@ -5,6 +5,12 @@ All notable changes to parcel-plugin-handlebars-precompile will be documented in
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and parcel-plugin-handlebars-precompile adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 2020-02-26
+
+### Fixed
+
+* Updated module dependencies to fix vulnerabilities reported by NPM audit
+
 ## [1.0.1] - 2019-08-20
 
 ### Fixed

@@ -8,9 +8,10 @@ It is up to you how and when the template will be rendered.
 npm install --save-dev parcel-plugin-handlebars-precompile
 ```
 
-#### NOTE to version 1.0.1  
+#### NOTE to version 1.0.2  
 - Fully compatible with `parcel-bundler@1.11.0`.  
-- Partially compatible with `parcel-bundler@1.12.x` - source map generation must be disabled eg: `parcel build index.html --no-source-maps`.  
+- Partially compatible with `parcel-bundler@1.12.x`
+  > source map generation must be disabled eg: `parcel build index.html --no-source-maps`.  
 
 # Usage
   
@@ -40,6 +41,15 @@ Run the parcel bundler:
 
 ```bash
 parcel build index.html
+```
+
+With `parcel-bundler@1.12.x` run without sourcemap generation:
+```bash
+parcel index.html --no-source-maps
+```
+build:
+```bash
+parcel build index.html --no-source-maps
 ```
 
 # Credits
